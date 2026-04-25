@@ -1,0 +1,40 @@
+# =========================
+# FILE SISTEM
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# MATLAB
+# =========================
+*.asv        # autosave MATLAB
+*.m~         # backup file
+*.fig        # figure MATLAB (kalau tidak mau diupload)
+*.mat        # data binary MATLAB (opsional)
+
+# =========================
+# OUTPUT / HASIL GENERATE
+# =========================
+*.png        # gambar hasil plot (opsional, kalau mau exclude)
+*.jpg
+*.jpeg
+*.pdf        # kalau laporan generate otomatis
+
+# =========================
+# CACHE / TEMP
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# EDITOR
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# FILE PRIBADI / CORETKAN
+# =========================
+catatan.txt
+draft_*.txt
